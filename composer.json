@@ -10,6 +10,30 @@
     "autoload": {
         "psr-4": {
             "App\\": "src/"
+        },
+        "files": [
+            "src/Database/connection.php",
+            "src/Http/escapeHtml.php",
+            "src/Plano/criarPlano.php",
+            "src/Plano/listarPlanos.php",
+            "src/Plano/buscarPlanoPorId.php",
+            "src/Plano/atualizarPlano.php",
+            "src/Plano/excluirPlano.php",
+            "src/Plano/planoExiste.php",
+            "src/Plano/validarCamposPlano.php",
+            "src/Cliente/criarCliente.php",
+            "src/Cliente/listarClientes.php",
+            "src/Cliente/buscarClientePorId.php",
+            "src/Cliente/atualizarCliente.php",
+            "src/Cliente/excluirCliente.php",
+            "src/Cliente/validarCpf.php",
+            "src/Cliente/cpfJaCadastrado.php",
+            "src/Cliente/validarCamposCliente.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
         }
     }
 }

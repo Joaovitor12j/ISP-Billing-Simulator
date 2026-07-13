@@ -6,8 +6,11 @@ services:
     volumes:
       - ./src:/var/www/src
       - ./public:/var/www/public
+      - ./templates:/var/www/templates
+      - ./tests:/var/www/tests
       - ./composer.json:/var/www/composer.json
       - ./composer.lock:/var/www/composer.lock
+      - ./phpunit.xml:/var/www/phpunit.xml
       - ./vendor:/var/www/vendor
     depends_on:
       - db
