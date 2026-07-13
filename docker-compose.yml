@@ -6,6 +6,9 @@ services:
     volumes:
       - ./src:/var/www/src
       - ./public:/var/www/public
+      - ./composer.json:/var/www/composer.json
+      - ./composer.lock:/var/www/composer.lock
+      - ./vendor:/var/www/vendor
     depends_on:
       - db
     env_file:
@@ -20,6 +23,7 @@ services:
       MARIADB_ROOT_PASSWORD: ${DB_PASSWORD}
     volumes:
       - db_data:/var/lib/mysql
+      - ./docker/mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
     env_file:
       - .env
 
