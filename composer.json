@@ -28,7 +28,12 @@
             "src/Cliente/excluirCliente.php",
             "src/Cliente/validarCpf.php",
             "src/Cliente/cpfJaCadastrado.php",
-            "src/Cliente/validarCamposCliente.php"
+            "src/Cliente/validarCamposCliente.php",
+            "src/Fatura/calcularValorProrata.php",
+            "src/Fatura/gerarFatura.php",
+            "src/Fatura/listarFaturas.php",
+            "src/Fatura/buscarFaturaPorId.php",
+            "src/Fatura/atualizarStatusFatura.php"
         ]
     },
     "autoload-dev": {
