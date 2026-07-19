@@ -36,7 +36,7 @@
             "src/Fatura/buscarFaturaPorId.php",
             "src/Fatura/atualizarStatusFatura.php",
             "src/Pagamento/registrarPagamento.php",
-            "src/Pagamento/listarPagamentosPorFatura.php"
+            "src/Pagamento/listarPagamentosPorFatura.php",
             "src/Fatura/atualizarStatusFatura.php",
             "src/Fatura/listarFaturasComFiltro.php",
             "src/Relatorio/receitaPorPlanoEMes.php",
