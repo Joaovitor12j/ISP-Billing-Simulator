@@ -51,6 +51,7 @@ use function App\Http\escapeHtml;
                 <th>Valor</th>
                 <th>Vencimento</th>
                 <th>Status</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -61,6 +62,7 @@ use function App\Http\escapeHtml;
                     <td><?= escapeHtml($fatura['valor']) ?></td>
                     <td><?= escapeHtml($fatura['data_vencimento']) ?></td>
                     <td><?= escapeHtml($fatura['status']) ?></td>
+                    <td><a href="/pagamento.php?fatura_id=<?= escapeHtml((string) $fatura['id']) ?>">Pagamentos</a></td>
                 </tr>
             <?php endforeach; ?>
         </tbody>
