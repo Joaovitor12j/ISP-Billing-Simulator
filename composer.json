@@ -34,7 +34,10 @@
             "src/Fatura/gerarFatura.php",
             "src/Fatura/listarFaturas.php",
             "src/Fatura/buscarFaturaPorId.php",
-            "src/Fatura/atualizarStatusFatura.php"
+            "src/Fatura/atualizarStatusFatura.php",
+            "src/Fatura/listarFaturasComFiltro.php",
+            "src/Relatorio/receitaPorPlanoEMes.php",
+            "src/Relatorio/inadimplencia.php"
         ]
     },
     "autoload-dev": {
